@@ -1,23 +1,26 @@
 # qualys_challenge
 
-Prerequisites:
-```python
-elasticsearch
-numpy```
+##Prerequisites:
 
-Installing Prerequisites:
+```
+python
+elasticsearch
+numpy
+```
+
+##Installing Prerequisites:
 
 ```
 pip install -r requirements.txt
 ```
 
-Running the code:
+##Running the code:
 
 ```
 python script.py
 ```
 
-Description:
+##Description:
 
 1. The input dat file contains several readings where each reading is made up of 2 parts where each part is an unsigned integer (0-255).
 2. The part 1 of all the readings and part 2 of the all the readings are put into an array of their own and the mean values of these 2 parts are computed.
